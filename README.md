@@ -1,5 +1,8 @@
 # bubble-shooter
 
+## 완성일
+2022.11.28 오후 5시 49분
+
 ## 감성팔이
 이 프로젝트는 고등학교 1학년, 콘솔 게임 만들기(C언어) 수행평가로 제출하였습니다.
 현재는 코드를 만지작거려서 실행할 수 없는 상태가 되어버렸습니다.
@@ -29,6 +32,16 @@
  > ./images/Bubble_*.bmp
 
 그 외: 직접 편집
+
+## 오류 해결방법
+1. 화면 사이즈 변경이 안 돼요!
+> 관리자 권한으로 실행 해 보세요
+2. 화면이 안 떠요!
+> A1. 관리자 권한으로 실행 해 보세요
+> 
+> A2. "프로젝트 > BubbleShooter 속성 > 구성 속성 > 고급 > 문자집합 멀티바이트 문잡 집합 사용"
+> 
+> 으로 설정되어 있는지 체크해 보세요
 
 ## Thank you for your understanding.
 When I was a freshman in high school, the task was to make a console game (using ONLY C Language).

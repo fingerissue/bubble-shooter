@@ -1,13 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#pragma comment(lib,"winmm.lib")
+
 #include <stdlib.h>
 #include <windows.h>
 #include <conio.h>
-#include <process.h>
-#include <stdlib.h>
-
-#pragma comment(lib,"winmm.lib")
-
 #include "./headers/music.h"
 #include "./headers/define.h"
 #include "./headers/init.h"
@@ -21,7 +17,7 @@ int main() {
 	imageLayer.initialize(&imageLayer);
 	ClearCursor(); // 커서 없애기
 	ReSizeConsole(MAX_X, MAX_Y); // 창 크기 변경
-	system("title BubbleShooter"); // 콘솔창 이름 바꿔줌
+	system("title BubbleShooter"); // 콘솔창 이름 변경
 
 	// 2. 메인 스크린
 	StartScreenStartImage(); // 게임 시작 화면 띄우기

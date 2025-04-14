@@ -1,9 +1,6 @@
 #pragma once
 #define _CRT_SECURE_NO_WARNINGS
 
-#include <stdio.h>
-#include <conio.h>
-
 #include "ImageLayer.h"
 
 // Game Start 선택된 화면 (Space X)
@@ -13,7 +10,7 @@ void StartScreenStartImage() {
 	imageLayer.initialize(&imageLayer);
 
 	Image images[1] = {
-		{"StartScreen_GameStart.bmp", 0, 0, 1},
+		{"./images/StartScreen_GameStart.bmp", 0, 0, 1},
 		//{"StartScreen_GameStart.bmp", 0, 0, 1} // Game Start 선택된 이미지 (Space X)
 	};
 	
@@ -29,7 +26,7 @@ void StartScreenStartSpaceImage() {
 	ImageLayer imageLayer = DEFAULT_IMAGE_LAYER;
 	imageLayer.initialize(&imageLayer);
 	Image images[1] = {
-		{"StartScreen_GameStartSpace.bmp", 0, 0, 1} // Game Start 선택된 이미지 (Space O)
+		{"./images/StartScreen_GameStartSpace.bmp", 0, 0, 1} // Game Start 선택된 이미지 (Space O)
 	};
 
 	imageLayer.imageCount = 1;
@@ -46,7 +43,7 @@ void StartScreenExitImage() {
 	imageLayer.initialize(&imageLayer);
 
 	Image images[1] = {
-		{"StartScreen_Exit.bmp", 0, 0, 1} // Exit 선택된 이미지 (Space X)
+		{"./images/StartScreen_Exit.bmp", 0, 0, 1} // Exit 선택된 이미지 (Space X)
 	};
 
 	imageLayer.imageCount = 1;
@@ -63,7 +60,7 @@ void StartScreenExitSpaceImage() {
 	imageLayer.initialize(&imageLayer);
 
 	Image images[1] = {
-		{"StartScreen_ExitSpace.bmp", 0, 0, 1} // Exit 선택된 이미지 (Space O)
+		{"./images/StartScreen_ExitSpace.bmp", 0, 0, 1} // Exit 선택된 이미지 (Space O)
 	};
 
 	imageLayer.imageCount = 1;

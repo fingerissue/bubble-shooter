@@ -1,9 +1,8 @@
 #pragma once
 #pragma warning(disable:4996)
+
 #include <stdlib.h>
 #include <windows.h>
-#include <conio.h>
-#include "define.h"
 
 // 커서 없애주는 함수
 void ClearCursor() {
