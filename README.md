@@ -1,15 +1,67 @@
 # bubble-shooter
+[README for English ver.](./README-en.md)
 
 ## 완성일
-2022.11.28 오후 5시 49분
+최초 완성일: 2022.11.28 오후 5시 49분
+
+수정 완성일: 2025.04.15 오전 00시 02분
+
+## 실행 환경
+Windows 11, Visual Studio (관리자 권한)
+
+**windows.h 헤더파일을 사용**하기 때문에, **다른 환경에서는 실행이 불가능할 수 있습니다.**
+
+**관리자 권한**으로 실행하지 않을 경우, 화면 사이즈 변경 및 화면이 안 뜨는 오류가 있습니다.
+
+정상적으로 실행하기 위해서, **Windows 운영체제 / Visual Studio 관리자 권한**으로 실행해 주시기 바랍니다.
+
+## 실행 방법
+### 설치 
+[Visual Studio 설치](https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030) > (Visual Studio Installer에서 수정 클릭) > 데스크톱 및 모바일 > C++을 사용한 데스크톱 개발 설치
+### 실행
+BubbleShooter.sln 을 **관리자 권한**으로 실행 > Ctrl + F5 을 눌러서 실행
+
+## 게임 방법 (조작키)
+![image](./images/GameLayout.bmp)
+
+## FAQ
+<details><summary>
+1. 화면이 안 떠요!
+
+1-1. 화면에 검정색만 나타나요!<br>
+1-2. 화면 모서리에 검정색이 나타나요!</summary>
+
+A1. 관리자 권한으로 실행 해 보세요
+
+A2. 그래도 안 된다면 다음 설정을 확인해 주세요!
+ - 프로젝트 > 속성 > 구성 속성 > 고급 > 문자집합 멀티바이트 문잡 집합 사용
+</details>
+<details><summary>
+2. 너무 느려요!
+
+2-1. 키보드 입력이 안 되는 것 같아요!<br>
+2-2. 화면이 멈췄어요!</summary>
+
+A2. 저도 그래요...ㅜ 인내심을 가지고 기다린다면 언젠간 될 겁니다.
+
+일단 코드가 돌아간 다는 것에 의의를 둡시다..!
+</details>
+<details><summary>
+3. 실행파일이 따로 없나요?
+
+3-1. exe파일이 없나요?</summary>
+
+A3. exe파일은 제가 어떻게 만드는지 몰라서 없습니다.
+</details>
 
 ## 감성팔이
 이 프로젝트는 고등학교 1학년, 콘솔 게임 만들기(C언어) 수행평가로 제출하였습니다.
-현재는 코드를 만지작거려서 실행할 수 없는 상태가 되어버렸습니다.
-그래서 다시 실행할 수 있도록 수정하는 김에 첫 프로젝트로 공개합니다.
 
-고등학교 1학년 때의 실력을 최대한 그대로 보여드리기 위해, 수정은 최소화할 예정입니다.
-코드가 스파게티여도 고등학교 1학년 학생 수-쥰이라고 생각하고, 토달지 말아주시길 주시길 바랍니다.
+고등학교 1학년 때의 실력을 최대한 그대로 보여드리기 위해, 수정은 최소화했습니다.
+
+코드가 스파게티여도, 실제로 게임을 할 수 없을 정도로 느려서 속터지더라도
+
+고등학교 1학년 학생 수-쥰이라고 생각하고, 너무 욕박지 말아주시길 주시길 바랍니다.
 
 이해해 주셔서 감사합니다.
 
@@ -27,46 +79,6 @@
 
 ### 이미지 파일
 도움 (익명의 그림자)
- > ./images/StartScreen_*.bmp
- >
- > ./images/Bubble_*.bmp
-
-그 외: 직접 편집
-
-## 오류 해결방법
-1. 화면 사이즈 변경이 안 돼요!
-> 관리자 권한으로 실행 해 보세요
-2. 화면이 안 떠요!
-> A1. 관리자 권한으로 실행 해 보세요
-> 
-> A2. "프로젝트 > BubbleShooter 속성 > 구성 속성 > 고급 > 문자집합 멀티바이트 문잡 집합 사용"
-> 
-> 으로 설정되어 있는지 체크해 보세요
-
-## Thank you for your understanding.
-When I was a freshman in high school, the task was to make a console game (using ONLY C Language).
-This project was for that task, but the current code cannot execute because I was fiddling with it.
-So, I decided to make a repository while making this code executable.
-
-In order to show the code written in my first year of high school as authentically as possible,
-I will minimize the modifications such as making it easier for people to read.
-So, even if the code is messy, please consider it as the work of a first-year high school student.
-
-Thank you for your understanding.
-
-## I got help
-### Image Processing Header File
-|Original|Improvement|
-|---|---|
-|[Link](https://github.com/MinSeungHyun/CodeTheCompany/tree/master/ConsoleGame/ImageUtils)|[Link](https://hdox.de/manylayer)|
- > ./headers/ImageLayer.h
- >
- > ./headers/ImageLayerImpl.h
- > 
- > ./headers/ImageLayerInterface.h
-
-### Image File
-Help (Anonymous)
  > ./images/StartScreen_*.bmp
  >
  > ./images/Bubble_*.bmp

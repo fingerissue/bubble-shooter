@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\2 Programming\\bubble-shooter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\headers\\GameScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:headers\\GameScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\headers\\GameOver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:headers\\GameOver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\headers\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:headers\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\headers\\music.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:headers\\music.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\headers\\FirstScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:headers\\FirstScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|D:\\2 Programming\\bubble-shooter\\headers\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83D843E7-590D-45AE-B5A0-CE47EB849AB8}|BubbleShooter.vcxproj|solutionrelative:headers\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FirstScreen.h",
-              "DocumentMoniker": "D:\\2 Programming\\bubble-shooter\\headers\\FirstScreen.h",
-              "RelativeDocumentMoniker": "headers\\FirstScreen.h",
-              "ToolTip": "D:\\2 Programming\\bubble-shooter\\headers\\FirstScreen.h",
-              "RelativeToolTip": "headers\\FirstScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "music.h",
+              "DocumentMoniker": "D:\\2 Programming\\bubble-shooter\\headers\\music.h",
+              "RelativeDocumentMoniker": "headers\\music.h",
+              "ToolTip": "D:\\2 Programming\\bubble-shooter\\headers\\music.h",
+              "RelativeToolTip": "headers\\music.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-14T12:59:50.25Z",
+              "WhenOpened": "2025-04-14T14:53:05.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "define.h",
               "DocumentMoniker": "D:\\2 Programming\\bubble-shooter\\headers\\define.h",
               "RelativeDocumentMoniker": "headers\\define.h",
               "ToolTip": "D:\\2 Programming\\bubble-shooter\\headers\\define.h",
               "RelativeToolTip": "headers\\define.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-14T12:59:49.572Z",
+              "WhenOpened": "2025-04-14T14:43:18.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "D:\\2 Programming\\bubble-shooter\\main.c",
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "D:\\2 Programming\\bubble-shooter\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAhwGgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-14T12:55:31.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameScreen.h",
+              "DocumentMoniker": "D:\\2 Programming\\bubble-shooter\\headers\\GameScreen.h",
+              "RelativeDocumentMoniker": "headers\\GameScreen.h",
+              "ToolTip": "D:\\2 Programming\\bubble-shooter\\headers\\GameScreen.h",
+              "RelativeToolTip": "headers\\GameScreen.h",
+              "ViewState": "AgIAAKkCAAAAAAAAAAAYwO0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-14T13:38:15.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameOver.h",
+              "DocumentMoniker": "D:\\2 Programming\\bubble-shooter\\headers\\GameOver.h",
+              "RelativeDocumentMoniker": "headers\\GameOver.h",
+              "ToolTip": "D:\\2 Programming\\bubble-shooter\\headers\\GameOver.h",
+              "RelativeToolTip": "headers\\GameOver.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-14T13:21:07.927Z",
               "EditorCaption": ""
             }
           ]
