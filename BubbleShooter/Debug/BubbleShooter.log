@@ -1,0 +1,155 @@
+﻿  main.c
+D:\2 Programming\bubble-shooter\headers\ImageLayerImpl.h(22,121): error C2065: 'LfontName': 선언되지 않은 식별자입니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\ImageLayerImpl.h(22,121): warning C4047: '함수': 'LPCWSTR'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\ImageLayerImpl.h(22,121): warning C4024: 'CreateFontW': 형식 및 실제 매개 변수 14의 형식이 서로 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\ImageLayerImpl.h(31,21): warning C4133: '함수': 'char *'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\ImageLayerImpl.h(31,35): warning C4133: '함수': 'char *'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\ImageLayerImpl.h(64,63): warning C4133: '함수': 'LPCSTR'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(353,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(354,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(363,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(364,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(387,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(388,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(403,23): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(403,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(419,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(420,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(429,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(430,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(453,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(454,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(469,23): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(469,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(484,35): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(485,35): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(490,23): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(490,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(509,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(510,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(519,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(520,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(543,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(544,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(559,23): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(559,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(575,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(576,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(585,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(586,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(608,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(609,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(624,23): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\headers\GameScreen.h(624,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+D:\2 Programming\bubble-shooter\main.c(101,24): warning C4047: '함수': 'DWORD'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(101,24): warning C4024: 'PlaySoundW': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(134,8): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\2 Programming\bubble-shooter\main.c(139,23): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [7][29]'
+D:\2 Programming\bubble-shooter\main.c(140,23): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [5][29]'
+D:\2 Programming\bubble-shooter\main.c(140,30): warning C4047: '함수': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(140,30): warning C4024: 'SetAngle': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(144,39): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [7][29]'
+D:\2 Programming\bubble-shooter\main.c(144,47): warning C4047: '함수': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(144,47): warning C4024: 'GameLayoutImage': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(155,26): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [7][29]'
+D:\2 Programming\bubble-shooter\main.c(155,38): warning C4047: '함수': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(155,38): warning C4024: 'MakeNewLine': 형식 및 실제 매개 변수 4의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(168,24): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [5][29]'
+D:\2 Programming\bubble-shooter\main.c(173,24): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [6][29]'
+D:\2 Programming\bubble-shooter\main.c(177,24): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [6][29]'
+D:\2 Programming\bubble-shooter\main.c(180,17): warning C4133: '함수': 'char [10]'과(와) 'TCHAR *' 사이의 형식이 호환되지 않습니다.
+D:\2 Programming\bubble-shooter\main.c(185,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int [18][9]'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(185,26): warning C4024: 'Pause': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(195,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int [18][9]'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(195,26): warning C4024: 'Pause': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(203,27): warning C4047: '함수': 'DWORD'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(203,27): warning C4024: 'PlaySoundW': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(237,30): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [7][29]'
+D:\2 Programming\bubble-shooter\main.c(238,26): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [5][29]'
+D:\2 Programming\bubble-shooter\main.c(238,33): warning C4047: '함수': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(238,33): warning C4024: 'SetAngle': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+D:\2 Programming\bubble-shooter\main.c(255,36): warning C4048: 배열 첨자가 다릅니다. 'char (*)[20]'과(와) 'char [7][29]'

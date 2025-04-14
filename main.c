@@ -101,7 +101,7 @@ int main() {
 	PlaySound(NULL, NULL, NULL); // 메인 스크린에서 재생되고 있던 음악 멈춤
 	PlaySound(TEXT("./sounds/BubbleShooter_Game.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP); // 게임 화면 음악 재생
 	
-	char Bubble[7][29] = {
+	char Bubble[7][30] = {
 		"None", // GameMap의 초기값을 0으로 설정했기 때문에, 버블의 0번째는 아무것도 출력 X
 		"./images/Bubble_Blue.bmp",
 		"./images/Bubble_Green.bmp",
@@ -110,7 +110,7 @@ int main() {
 		"./images/Bubble_Red.bmp",
 		"./images/Bubble_Yellow.bmp"
 	};
-	char Level[6][29] = { // 빠르게를 나타내는 이미지
+	char Level[6][30] = { // 빠르게를 나타내는 이미지
 		"./images/Level1.bmp",
 		"./images/Level2.bmp",
 		"./images/Level3.bmp",
@@ -118,7 +118,7 @@ int main() {
 		"./images/Level5.bmp",
 		"./images/Level6.bmp"
 	};
-	char Arrow[5][29] = { // 각도(화살표)를 나타내는 이미지
+	char Arrow[5][30] = { // 각도(화살표)를 나타내는 이미지
 		"./images/Arrow1.bmp",
 		"./images/Arrow2.bmp",
 		"./images/Arrow3.bmp",
@@ -177,7 +177,7 @@ int main() {
 						level = SetLevel(Level, key);
 						break;
 					case SPACE:  // 버블 날림
-						playSound("shoot.wav");
+						playSound("./sounds/shoot.wav");
 						shoot = 1;
 						break;
 					case 'q': // Pasue Save 띄우기

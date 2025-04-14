@@ -1,6 +1,4 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
 #include <windows.h>
 
 //mci를 사용하여 소리를 재생하기 위한 함수

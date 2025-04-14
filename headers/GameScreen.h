@@ -2,19 +2,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 #include <windows.h>
 #include <math.h>
-#include <stdbool.h>
 
 #include "ImageLayer.h"
 #include "define.h"
-#include "init.h"
 
 // 게임 배경 화면 가져오기
 Image images[300] = {
-	{"GameLayout.bmp", 0, 0, 1}, // 게임 맵 이미지
+	{"./images/GameLayout.bmp", 0, 0, 1}, // 게임 맵 이미지
 	{"NULL", NEXT_X, NEXT_Y, NEXT_BUBBLE_SIZE}, // 다음 버블 설정
 	{"NULL", CURRENT_X, CURRENT_Y, MAIN_BUBBLE_SIZE} // 현재 버블 설정
 };
@@ -36,7 +33,7 @@ int bubbleMidX = 0;
 int bubbleMidY = 0;
 
 // 버블이 겹치는지 체크하는 함수
-int CheckBubble(char(*Bubble)[20]) { // 필요한 매개변수: 버블 이름
+int CheckBubble(char(*Bubble)[30]) { // 필요한 매개변수: 버블 이름
 	for (int i = 0; i < MAP_MAX_Y_COUNT * MAP_MAX_X_COUNT; i++) { // 맵의 크기만큼
 		if (
  			(images[3 + i].fileName != Bubble[0]) && // 버블이 없지 않고 (= 있고)
@@ -66,7 +63,7 @@ int CheckBubble(char(*Bubble)[20]) { // 필요한 매개변수: 버블 이름
 int currentBubblePosition[2] = { -1, -1 };
 
 // 맵을 이차원 배열에 저장하는 함수
-int SaveMap(char(*Bubble)[20], int* map, char curBubble[20]) { // 필요한 매개변수: 버블 이름, 맵, 현재 버블 이름
+int SaveMap(char(*Bubble)[30], int* map, char curBubble[30]) { // 필요한 매개변수: 버블 이름, 맵, 현재 버블 이름
 	int temp = 0; // 현재 버블 이름을 저장하는 변수
 
 	for (int i = 0; i < 7; i++) {
@@ -97,10 +94,10 @@ int SaveMap(char(*Bubble)[20], int* map, char curBubble[20]) { // 필요한 매개변�
 // 버블 터지는 함수를 구현하기 위해 필요한 변수
 int count = 0; // 버블 터지는 개수를 세기 위한 변수
 int visited[MAP_MAX_Y_COUNT][MAP_MAX_X_COUNT] = { 0 }; // 방문한 곳 체크하는 배열
-char s[20] = { 0 }; // score 출력할 때 사용하는 변수
+char s[30] = { 0 }; // score 출력할 때 사용하는 변수
 
 // 버블 터지는 함수
-int BurstBubbleCheck(int(*map)[MAP_MAX_X_COUNT], char(*Bubble)[20], char curBubble[20], int curY, int curX, int preY, int preX) { // 필요한 매개변수: 맵, 버블 이미지 이름, 현재 버블 이미지 이름, 현재 y좌표, 현재 x좌표, 이전 Y좌표, 이전 X좌표
+int BurstBubbleCheck(int(*map)[MAP_MAX_X_COUNT], char(*Bubble)[30], char curBubble[30], int curY, int curX, int preY, int preX) { // 필요한 매개변수: 맵, 버블 이미지 이름, 현재 버블 이미지 이름, 현재 y좌표, 현재 x좌표, 이전 Y좌표, 이전 X좌표
 	int temp = 0; // 현재 버블 이름을 저장하는 변수
 
 	for (int i = 0; i < 7; i++) {
@@ -230,10 +227,10 @@ int Pause(char key, int *map, int mode) {
 		return 2;
 	}
 	else if (key == 'a') { // Pause Save 실행
-		FILE* fp = fopen("GameMap.txt", "w"); // 맵 저장할 파일 열기 (쓰기 모드로)
-		FILE* sc = fopen("score.txt", "w"); // 점수 저장할 파일 열기 (쓰기 모드로)
+		FILE* fp = fopen("./settings/GameMap.txt", "w"); // 맵 저장할 파일 열기 (쓰기 모드로)
+		FILE* sc = fopen("./settings/score.txt", "w"); // 점수 저장할 파일 열기 (쓰기 모드로)
 		
-		if (!strcmp(images[6 + GAME_MAP_END].fileName, "PauseSave.bmp")) { // PauseSave일 경우
+		if (!strcmp(images[6 + GAME_MAP_END].fileName, "./images/PauseSave.bmp")) { // PauseSave일 경우
 			for (int i = 0; i < (MAP_MAX_Y_COUNT + 1) * MAP_MAX_X_COUNT; i++) {
 				fprintf(fp, "%d ", map[i]); // 맵 저장
 			}
@@ -248,10 +245,10 @@ int Pause(char key, int *map, int mode) {
 		return 2; // Pause Load 열기 (원래 모드)
 	}
 	else if (key == 's') { // Pause Load 실행
-		FILE* fp = fopen("GameMap.txt", "r"); // 맵 저장할 파일 열기 (읽기 모드로)
-		FILE* sc = fopen("score.txt", "r"); // 점수 저장할 파일 열기 (읽기 모드로)
+		FILE* fp = fopen("./settings/GameMap.txt", "r"); // 맵 저장할 파일 열기 (읽기 모드로)
+		FILE* sc = fopen("./settings/score.txt", "r"); // 점수 저장할 파일 열기 (읽기 모드로)
 		
-		if (!strcmp(images[6 + GAME_MAP_END].fileName, "PauseLoad.bmp")) { // PauseLoad일 경우
+		if (!strcmp(images[6 + GAME_MAP_END].fileName, "./images/PauseLoad.bmp")) { // PauseLoad일 경우
 			for (int i = 0; i < (MAP_MAX_Y_COUNT + 1) * MAP_MAX_X_COUNT; i++) {
 				fscanf(fp, "%d ", &map[i]); // 맵 불러오기
 			}
@@ -274,7 +271,7 @@ int Pause(char key, int *map, int mode) {
 }
 
 // 게임 배경 화면 및 GameMap 출력
-int GameLayoutImage(int (*map)[MAP_MAX_X_COUNT], char(*Bubble)[20], int angle, int *shoot, int *mode, int pause) { // 필요한 매개변수: 게임맵, 버블 이미지 이름, 각도, 슛 여부, 멈춤모드
+int GameLayoutImage(int (*map)[MAP_MAX_X_COUNT], char(*Bubble)[30], int angle, int *shoot, int *mode, int pause) { // 필요한 매개변수: 게임맵, 버블 이미지 이름, 각도, 슛 여부, 멈춤모드
 	Sleep(1);
 	ImageLayer imageLayer = DEFAULT_IMAGE_LAYER;
 	imageLayer.initialize(&imageLayer);
@@ -638,16 +635,16 @@ int GameLayoutImage(int (*map)[MAP_MAX_X_COUNT], char(*Bubble)[20], int angle, i
 			images[6 + GAME_MAP_END].fileName = "NULL";
 		}
 		else if (pause == 1) {
-			images[6 + GAME_MAP_END].fileName = "PauseSave.bmp";
+			images[6 + GAME_MAP_END].fileName = "./images/PauseSave.bmp";
 		}
 		else if (pause == 2) {
-			images[6 + GAME_MAP_END].fileName = "PauseLoad.bmp";
+			images[6 + GAME_MAP_END].fileName = "./images/PauseLoad.bmp";
 		}
 		else if (pause == 3) {
-			images[6 + GAME_MAP_END].fileName = "PauseSaveComplete.bmp";
+			images[6 + GAME_MAP_END].fileName = "./images/PauseSaveComplete.bmp";
 		}
 		else if (pause == 4) {
-			images[6 + GAME_MAP_END].fileName = "PauseLoadComplete.bmp";
+			images[6 + GAME_MAP_END].fileName = "./images/PauseLoadComplete.bmp";
 		}
 		
 		imageLayer.renderAll(&imageLayer); // 이미지 렌더링
@@ -658,7 +655,7 @@ int GameLayoutImage(int (*map)[MAP_MAX_X_COUNT], char(*Bubble)[20], int angle, i
 }
 
 // 새로운 라인 생성하는 함수
-void MakeNewLine(int(*map)[MAP_MAX_X_COUNT], char(*Bubble)[20], int start, int last) { // 필요한 매개변수: 게임맵, 버블 이미지 이름, 시작줄, 끝줄
+void MakeNewLine(int(*map)[MAP_MAX_X_COUNT], char(*Bubble)[30], int start, int last) { // 필요한 매개변수: 게임맵, 버블 이미지 이름, 시작줄, 끝줄
 	int temp[MAP_MAX_Y_COUNT][MAP_MAX_X_COUNT] = { 0 }; // 새로운 라인을 생성하기 위해 임시로 저장할 배열
 	if (start == -1) { // 시작줄이 -1이면 맨 위에 라인을 생성하고 아래 있는 라인들을 1칸씩 밑으로 내림
 		for (int i = 0; i < MAP_MAX_Y_COUNT - 1; i++) {
@@ -688,7 +685,7 @@ int level = 1;
 int mod = 0;
 
 // 레벨 조절하는 함수
-int SetLevel(char(*Level)[20], char key) { // 필요한 매개변수: 레벨 이미지 이름, 입력 값
+int SetLevel(char(*Level)[30], char key) { // 필요한 매개변수: 레벨 이미지 이름, 입력 값
 	// 파워 이미지 설정
 	images[3 + GAME_MAP_END].fileName = Level[level-1];
 	images[3 + GAME_MAP_END].x = LEVEL_X;
@@ -727,7 +724,7 @@ int SetLevel(char(*Level)[20], char key) { // 필요한 매개변수: 레벨 이미지 이름,
 int arrow = 1;
 
 // 각도 조절하는 함수
-int SetAngle(char(*Arrow)[20], char key) { // 필요한 매개변수: 화살표 이미지 이름, 입력 값
+int SetAngle(char(*Arrow)[30], char key) { // 필요한 매개변수: 화살표 이미지 이름, 입력 값
 	// 화샇표(각도) 이미지 설정
 	images[4 + GAME_MAP_END].fileName = Arrow[arrow - 1];
 	images[4 + GAME_MAP_END].x = ARROW_X;

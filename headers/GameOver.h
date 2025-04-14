@@ -2,10 +2,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-#include <conio.h>
 
 #include "ImageLayer.h"
-#include "define.h"
 
 char sc[20] = { 0 }; // score 출력할 때 사용하는 변수
 
@@ -15,14 +13,14 @@ void GameOver(int score, int gameover) {
 	imageLayer.initialize(&imageLayer);
 
 	Image images[1] = {
-		{"GameOverRetry.bmp", 0, 0, 1} // Retry 선택된 이미지
+		{"./images/GameOverRetry.bmp", 0, 0, 1} // Retry 선택된 이미지
 	};
 
 	if (gameover == 1) { // Retry 선택된 이미지 띄우기
-		images[0].fileName = "GameOverRetry.bmp";
+		images[0].fileName = "./images/GameOverRetry.bmp";
 	}
 	else if (gameover == 2) { // Exit 선택된 이미지 띄우기
-		images[0].fileName = "GameOverExit.bmp";
+		images[0].fileName = "./images/GameOverExit.bmp";
 	}
 
 	imageLayer.imageCount = 1;
