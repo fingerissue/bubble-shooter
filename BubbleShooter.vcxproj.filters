@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="BubbleShooter_StartScreen.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="BubbleShooter_Game.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="StartScreen_Exit.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StartScreen_GameStart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StartScreen__Space.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StartScreen_ExitSpace.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StartScreen_GameStartSpace.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GameLayout.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bubble_Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bubble_Green.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bubble_Orange.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bubble_Purple.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bubble_Red.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bubble_Yellow.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Level1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Level2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Level3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Level4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Level5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Level6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Arrow1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Arrow2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Arrow3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Arrow4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Arrow5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\FirstScreen.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\GameOver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\GameScreen.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\ImageLayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\ImageLayerImpl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\ImageLayerInterface.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\init.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\music.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

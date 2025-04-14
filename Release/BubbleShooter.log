@@ -1,0 +1,61 @@
+﻿  main.c
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\ImageLayerImpl.h(43,72): warning C4133: '함수': 'LPCSTR'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\ImageLayerImpl.h(148,53): error C2065: 'LfontName': 선언되지 않은 식별자입니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\ImageLayerImpl.h(148,53): warning C4047: '함수': 'LPCWSTR'의 간접 참조 수준이 'int'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\ImageLayerImpl.h(148,39): warning C4024: 'CreateFontW': 형식 및 실제 매개 변수 14의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\ImageLayerImpl.h(157,25): warning C4133: '함수': 'char *'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\ImageLayerImpl.h(157,39): warning C4133: '함수': 'char *'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(353,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(354,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(363,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(364,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(387,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(388,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(403,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(403,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(419,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(420,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(429,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(430,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(453,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(454,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(469,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(469,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(484,35): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(485,35): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(490,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(490,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(509,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(510,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(519,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(520,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(543,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(544,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(559,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(559,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(575,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(576,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(585,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(586,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(608,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(609,36): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(624,26): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int (*)[9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\GameScreen.h(624,23): warning C4024: 'SaveMap': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(121,28): warning C4047: '함수': 'DWORD'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(121,24): warning C4024: 'PlaySoundW': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(156,8): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(162,34): warning C4047: '함수': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(162,30): warning C4024: 'SetAngle': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(166,47): warning C4047: '함수': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(166,43): warning C4024: 'GameLayoutImage': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(176,42): warning C4047: '함수': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(176,38): warning C4024: 'MakeNewLine': 형식 및 실제 매개 변수 4의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(201,28): warning C4133: '함수': 'char [10]'과(와) 'TCHAR *' 사이의 형식이 호환되지 않습니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(206,33): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int [18][9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(206,26): warning C4024: 'Pause': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(216,33): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int [18][9]'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(216,26): warning C4024: 'Pause': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(224,31): warning C4047: '함수': 'DWORD'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(224,27): warning C4024: 'PlaySoundW': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(261,37): warning C4047: '함수': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+E:\고등학교\고1\프로그래밍\프로그래밍 2학기 수행평가\BubbleShooter\main.c(261,33): warning C4024: 'SetAngle': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.

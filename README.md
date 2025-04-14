@@ -10,8 +10,6 @@
 
 이해해 주셔서 감사합니다.
 
---
-
 ## Thank you for your understanding.
 When I was a freshman in high school, the task was to make a console game (using ONLY C Language).
 This project was for that task, but the current code cannot execute because I was fiddling with it.
