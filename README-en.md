@@ -81,3 +81,12 @@ Help (Anonymous)
  > ./images/StartScreen_*.bmp
  >
  > ./images/Bubble_*.bmp
+
+## Rights
+[main.c](./main.c), [define.h](./headers/define.h), [FirstScreen.h](./headers/FirstScreen.h), [GameOver.h](./headers/GameOver.h), [GameScreen.h](./headers/GameScreen.h), [init.h](./headers/init.h), [music.h](./headers/music.h)
+
+These files were written solely by me, and all rights belong to me.
+
+You may use them for personal purposes only. For any other use, please contact me.
+
+Copyright 2025. Fingerissue All rights reserved.

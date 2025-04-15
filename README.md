@@ -82,3 +82,12 @@ A3. exe파일은 제가 어떻게 만드는지 몰라서 없습니다.
  > ./images/StartScreen_*.bmp
  >
  > ./images/Bubble_*.bmp
+
+## 저작권
+[main.c](./main.c), [define.h](./headers/define.h), [FirstScreen.h](./headers/FirstScreen.h), [GameOver.h](./headers/GameOver.h), [GameScreen.h](./headers/GameScreen.h), [init.h](./headers/init.h), [music.h](./headers/music.h)
+
+해당 파일들은 제가 혼자 작성하였으며, 저작권은 저에게 있습니다.
+
+개인적인 용도로만 사용 가능하며, 그 외의 경우는 문의해 주시기 바랍니다.
+
+Copyright 2025. Fingerissue All rights reserved.
